@@ -1,4 +1,35 @@
-﻿.venv/
+﻿# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment / secrets
 .env
+.env.*
+
+# Recovery/generated output
+recovered/*
+!recovered/.gitkeep
+
+# Test-generated outputs
+test-data/tamper_results/
+test-data/simulated_drive/
+test-data/chain_of_custody.json
+test-data/chain_of_custody_backup.json
+test-data/evidence_baseline.json
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

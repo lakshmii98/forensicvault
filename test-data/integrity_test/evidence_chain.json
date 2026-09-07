@@ -1,0 +1,14 @@
+[
+    {
+        "file": "test-data\\integrity_test\\evidence_01.txt",
+        "sha256": "3802154705f45048d60d211fe2240901108c531f2edb2f38309138c1fc46ba21",
+        "previous_hash": "",
+        "record_hash": "16e300a0c122fbab3ee0161e132281c2d9e133f8b6f46dc61fd2a772002e9c9f"
+    },
+    {
+        "file": "test-data\\integrity_test\\evidence_02.txt",
+        "sha256": "2f5e09c5f18f8a4dc6ca68768462f7aea1ca0e503e5979118010c892a4475001",
+        "previous_hash": "16e300a0c122fbab3ee0161e132281c2d9e133f8b6f46dc61fd2a772002e9c9f",
+        "record_hash": "172e293c1a4ba6d2a293050db579bb1cb6ff3d65408882e84d680db4dcca8a34"
+    }
+]
