@@ -94,14 +94,18 @@ Analysis       Integrity
 * Detects changes to previously recorded evidence.
 * Supports evidence integrity verification.
 
-### 4. Image Tamper Analysis
+ ### 4. Image Tamper Analysis
 
-The platform provides multiple indicators for possible image manipulation, including:
+ForensicVault provides multiple image-forensic indicators to identify possible manipulation:
 
-* Metadata analysis
-* Error Level Analysis (ELA)
-* Pixel-level anomaly analysis
-* Copy-move detection
+- **Metadata Analysis** – examines image metadata for inconsistencies.
+- **Error Level Analysis (ELA)** – highlights regions with different compression characteristics.
+- **Copy-Move Detection** – analyzes possible duplicated regions within an image.
+- **Pixel Anomaly Detection** – identifies unusual pixel-level patterns.
+- **ELA Heatmap Generation** – produces a visual heatmap highlighting suspicious regions.
+- **Copy-Move Overlay** – provides a visual representation of detected duplicate-region candidates.
+
+> These techniques provide possible manipulation indicators and should not be interpreted as definitive proof of tampering.
 
 > Tamper analysis provides **possible manipulation indicators**, rather than claiming definitive proof of manipulation.
 
@@ -125,6 +129,20 @@ A protected simulation demonstrates the drive-erasure workflow without allowing 
 Evidence-related records can be linked through cryptographic hashes to provide tamper-evident integrity tracking.
 
 ---
+### 9. Evidence Audit & Investigation History
+
+ForensicVault maintains evidence-related activity and integrity information to support traceability during an investigation.
+
+The forensic workspace provides visibility into:
+
+- Evidence processing activities
+- Integrity verification results
+- Chain-of-custody information
+- Evidence history
+- Recovery and analysis results
+- Forensic report generation
+
+This provides investigators with a structured view of actions performed during the evidence-analysis workflow.
 
 ## 🏗️ System Architecture
 
